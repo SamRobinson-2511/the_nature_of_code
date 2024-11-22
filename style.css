@@ -1,8 +1,10 @@
 html, body {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
-canvas {
-  display: block;
+#banner{
+  z-index: -1;
+  margin-top: 0;
 }
+
